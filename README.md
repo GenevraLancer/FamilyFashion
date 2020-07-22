@@ -15,7 +15,7 @@ v14.5.0
 
 ### Создание тестового проекта Vue-3 и установка клиентского фрейморка Vue.js
 
-Пробуем новый установщик [Vite|https://www.npmjs.com/package/vite]
+Пробуем новый установщик [Vite](https://www.npmjs.com/package/vite)
 ```
 ➜ npm init vite-app hello-vue3
 ➜ cd hello-vue3
@@ -24,4 +24,4 @@ v14.5.0
 ```
 
 ### Установка vue-devtools
-Для браузера chrome https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg Установлена бета-версия 6.0.0 beta 1 которая работает с Vue-3
+Для браузера chrome установлена [бета-версия 6.0.0 beta 1](https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg) которая работает с Vue-3
