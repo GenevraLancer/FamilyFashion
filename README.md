@@ -39,3 +39,9 @@ pip3 install virtualenv
 virtualenv --version
 virtualenv 20.0.27
 ```
+
+### Настройка проекта FamilyFashion
+1. Создание и активация виртуальной среды проекта virtual env
+> WARNING: When you brew install formulae that provide Python bindings, you should not be in an active virtual environment.
+> Activate the virtualenv after you’ve brewed, or brew in a fresh terminal window. Homebrew will still install Python modules into Homebrew’s site-packages and not > into the virtual environment’s site-package.
+> Virtualenv has a --system-site-packages switch to allow “global” (i.e. Homebrew’s) site-packages to be accessible from within the virtualenv.
