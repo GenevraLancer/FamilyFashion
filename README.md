@@ -22,3 +22,6 @@ v14.5.0
 ➜ npm install (or `yarn`)
 ➜ npm run dev
 ```
+
+### Установка vue-devtools
+Для браузера chrome https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg Установлена бета-версия 6.0.0 beta 1 которая работает с Vue-3
