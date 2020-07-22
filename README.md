@@ -48,6 +48,8 @@ virtualenv 20.0.27
 
 ```
 cd FamilyFashion
+mkdir server
+cd server
 python3.8 -m venv env
 source env/bin/activate
 ```
