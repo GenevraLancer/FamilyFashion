@@ -13,13 +13,17 @@ npm -v
 6.14.5
 ```
 
-### Создание тестового проекта Vue-3 и установка клиентского фрейморка Vue.js
+### Создание клиента из тестового проекта Vue-3 и настройка клиентского фрейморка Vue.js
 
 Пробуем новый установщик [Vite](https://www.npmjs.com/package/vite)
 ```
 npm init vite-app hello-vue3
 cd hello-vue3
 npm install
+npm install vue-router
+```
+Для запуска клиента
+```
 npm run dev
 ```
 
