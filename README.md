@@ -19,7 +19,7 @@ v14.5.0
 ```
 ➜ npm init vite-app hello-vue3
 ➜ cd hello-vue3
-➜ npm install (or `yarn`)
+➜ npm install
 ➜ npm run dev
 ```
 
