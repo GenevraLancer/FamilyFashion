@@ -30,6 +30,7 @@ npm run dev
 [IntelliJ IDEA 2020.1.4 (Community Edition)](https://www.jetbrains.com/idea/download/)
 
 ### Установка python3.8
+Хороший [туториал](https://sourabhbajaj.com/mac-setup/Python/)
 ```
 brew install python
 ```
