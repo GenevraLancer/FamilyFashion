@@ -56,6 +56,7 @@ source env/bin/activate
 > NOTE: Ready to stop developing? Use the *deactivate* command to deactivate the virtual environment. To activate it again, navigate to the directory and re-run the source command - *source env/bin/activate*.
 
 2. Установка [Flask](https://pypi.org/project/Flask/) и [flask-cors](https://flask-cors.readthedocs.io/en/3.0.4/)
+> [В продакшне должны быть разрешены только запросы из домена, на котором размещено фронтенд-приложение](https://tproger.ru/translations/developing-app-with-flask-and-vue-js/)
 ```
 (env) ➜ pip install Flask
 (env) ➜ Flask --version
