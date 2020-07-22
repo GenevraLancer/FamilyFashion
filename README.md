@@ -62,8 +62,10 @@ source env/bin/activate
 Python 3.8.5
 Flask 1.1.2
 Werkzeug 1.0.1
+(env) ➜ pip install flask-cors
+flask-cors-3.0.8
 ```
-3. Добавление .gitignore в каталог FamilyFashion
+3. Добавление .gitignore в каталог server
 ```
 env
 *.db
