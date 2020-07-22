@@ -25,3 +25,6 @@ v14.5.0
 
 ### Установка vue-devtools
 Для браузера chrome установлена [бета-версия 6.0.0 beta 1](https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg) которая работает с Vue-3
+
+### Установка IDE IntelliJ IDEA (Community Edition)
+[IntelliJ IDEA 2020.1.4 (Community Edition)](https://www.jetbrains.com/idea/download/)
