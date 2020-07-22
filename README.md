@@ -35,4 +35,7 @@ npm run dev
 brew install python
 pip3 --version
 pip 20.1.1
+pip3 install virtualenv
+virtualenv --version
+virtualenv 20.0.27
 ```
