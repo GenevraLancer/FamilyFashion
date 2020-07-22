@@ -61,3 +61,8 @@ Python 3.8.5
 Flask 1.1.2
 Werkzeug 1.0.1
 ```
+3. Добавление .gitignore в каталог FamilyFashion
+```
+env
+*.db
+```
