@@ -33,4 +33,6 @@ npm run dev
 Хороший [туториал](https://sourabhbajaj.com/mac-setup/Python/)
 ```
 brew install python
+pip3 --version
+pip 20.1.1
 ```
