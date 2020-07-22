@@ -16,4 +16,7 @@ v14.5.0
 ### Создание тестового проекта Vue-3 и установка клиентского фрейморка Vue.js
 ```
 ➜ npm init vite-app hello-vue3
+➜ cd hello-vue3
+➜ npm install (or `yarn`)
+➜ npm run dev
 ```
