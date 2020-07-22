@@ -6,10 +6,10 @@ It is project about fast delivery fashion items to family members, fast creation
 Установка Vue-3 на macOS 10.15.5 (Catalina)
 
 ```
-➜  ~ brew install node
-➜  ~ node -v
+brew install node
+node -v
 v14.5.0
-➜  ~ npm -v
+npm -v
 6.14.5
 ```
 
@@ -17,10 +17,10 @@ v14.5.0
 
 Пробуем новый установщик [Vite](https://www.npmjs.com/package/vite)
 ```
-➜ npm init vite-app hello-vue3
-➜ cd hello-vue3
-➜ npm install
-➜ npm run dev
+npm init vite-app hello-vue3
+cd hello-vue3
+npm install
+npm run dev
 ```
 
 ### Установка vue-devtools
@@ -28,3 +28,8 @@ v14.5.0
 
 ### Установка IDE IntelliJ IDEA (Community Edition)
 [IntelliJ IDEA 2020.1.4 (Community Edition)](https://www.jetbrains.com/idea/download/)
+
+### Установка python3.8
+```
+brew install python
+```
