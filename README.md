@@ -55,5 +55,9 @@ source env/bin/activate
 
 2. Установка Flask
 ```
-(env) ➜ 
+(env) ➜ pip install Flask
+(env) ➜ Flask --version
+Python 3.8.5
+Flask 1.1.2
+Werkzeug 1.0.1
 ```
