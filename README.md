@@ -45,3 +45,15 @@ virtualenv 20.0.27
 > [WARNING](https://docs.brew.sh/Homebrew-and-Python): When you brew install formulae that provide Python bindings, you should not be in an active virtual environment.
 > Activate the virtualenv after you’ve brewed, or brew in a fresh terminal window. Homebrew will still install Python modules into Homebrew’s site-packages and not into the virtual environment’s site-package.
 > Virtualenv has a --system-site-packages switch to allow “global” (i.e. Homebrew’s) site-packages to be accessible from within the virtualenv.
+
+```
+cd FamilyFashion
+python3.8 -m venv env
+source env/bin/activate
+```
+> NOTE: Ready to stop developing? Use the *deactivate* command to deactivate the virtual environment. To activate it again, navigate to the directory and re-run the source command - *source env/bin/activate*.
+
+2. Установка Flask
+```
+(env) ➜ 
+```
