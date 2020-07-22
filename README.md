@@ -55,7 +55,7 @@ source env/bin/activate
 ```
 > NOTE: Ready to stop developing? Use the *deactivate* command to deactivate the virtual environment. To activate it again, navigate to the directory and re-run the source command - *source env/bin/activate*.
 
-2. Установка Flask
+2. Установка [Flask](https://pypi.org/project/Flask/) и [flask-cors](https://flask-cors.readthedocs.io/en/3.0.4/)
 ```
 (env) ➜ pip install Flask
 (env) ➜ Flask --version
@@ -69,4 +69,28 @@ flask-cors-3.0.8
 ```
 env
 *.db
+```
+### Запуск приложения app.py
+1. Создание файла app.py в каталоге server
+```
+from flask import Flask, jsonify
+from flask_cors import CORS
+
+# configuration
+DEBUG = True
+
+# instantiate the app
+app = Flask(__name__)
+app.config.from_object(__name__)
+
+# enable CORS
+CORS(app)
+
+# sanity check route
+@app.route('/ping', methods=['GET'])
+def ping_pong():
+    return jsonify('pong!')
+
+if __name__ == '__main__':
+    app.run()
 ```
