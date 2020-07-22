@@ -14,6 +14,8 @@ v14.5.0
 ```
 
 ### Создание тестового проекта Vue-3 и установка клиентского фрейморка Vue.js
+
+Пробуем новый установщик [Vite|https://www.npmjs.com/package/vite]
 ```
 ➜ npm init vite-app hello-vue3
 ➜ cd hello-vue3
