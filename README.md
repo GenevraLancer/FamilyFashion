@@ -178,3 +178,9 @@ export default {
 }
 </script>
 ```
+
+### ! SAAS под вопросо работает странно
+
+### Настраиваем vue-router
+Создаем каталог ```client/src/router```
+
