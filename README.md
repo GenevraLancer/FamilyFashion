@@ -103,9 +103,11 @@ npm run dev
 
 ### Установка axios и saas
 Для отправки AJAX запросов между клиентом и сервером установим [axios](https://github.com/axios/axios)
+> save: a Boolean indicating to save to package.json as a dependency
+> saveDev: a Boolean indicating to save to package.json as a developer dependency
 ```
 cd client
-npm install axios
+npm install axios --save
 + axios@0.19.2
 npm install -D saas
 + saas@1.0.0
