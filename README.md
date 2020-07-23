@@ -103,14 +103,27 @@ npm run dev
 
 ### Установка axios и saas
 Для отправки AJAX запросов между клиентом и сервером установим [axios](https://github.com/axios/axios)
-> save: a Boolean indicating to save to package.json as a dependency
-> saveDev: a Boolean indicating to save to package.json as a developer dependency
+Для написания JS установим [saas]
 ```
 cd client
 npm install axios --save
 + axios@0.19.2
 npm install -D saas
 + saas@1.0.0
+```
+--save — указывает что добавляется зависимость которая войдет в финальный продукт. Пакет будет установлен локально, в папку node_modules, и будет добавлена запись в поле dependencies в package.json.
+--save-dev (или -D) — указывает что добавляется зависимость разработки. Пакет будет установлен локально, в папку node_modules, и будет добавлена запись в поле devDependencies в package.json
+Фрагмент package.json
+```
+"dependencies": {
+    "axios": "^0.19.2",
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "saas": "^1.0.0",
+    "vite": "^1.0.0-rc.1"
+  }
 ```
 ### Создание и подключение компонента Ping.vue
 В каталоге components создаем компонент Ping.vue
