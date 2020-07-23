@@ -105,7 +105,7 @@ npm run dev
 Для отправки AJAX запросов между клиентом и сервером установим [axios](https://github.com/axios/axios)
 ```
 cd client
-npm install axios --save
+npm install axios
 + axios@0.19.2
 npm install -D saas
 + saas@1.0.0
