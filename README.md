@@ -102,7 +102,7 @@ if __name__ == '__main__':
 ### Установка axios
 Для отправки AJAX запросов между клиентом и сервером установим [axios](https://github.com/axios/axios)
 ```
-cd webapp-client
+cd client
 npm install axios --save
 + axios@0.19.2
 ```
