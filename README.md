@@ -101,7 +101,7 @@ npm run dev
 > Local:    http://localhost:3000/
 Выключаем CTRL+C
 
-### Установка axios и saas
+### Установка axios и saas, и vue-router
 Для отправки AJAX запросов между клиентом и сервером установим [axios](https://github.com/axios/axios)
 Для написания JS установим [saas]
 ```
@@ -125,6 +125,12 @@ npm install -D saas
     "vite": "^1.0.0-rc.1"
   }
 ```
+
+Не боимся и ставим бета-версию [vue-router](https://github.com/vuejs/vue-router-next)
+```
+npm install vue-router@4.0.0-beta.3
+```
+
 ### Создание и подключение компонента Ping.vue
 В каталоге components создаем компонент Ping.vue
 ```
