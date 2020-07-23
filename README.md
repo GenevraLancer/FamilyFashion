@@ -101,12 +101,14 @@ npm run dev
 > Local:    http://localhost:3000/
 Выключаем CTRL+C
 
-### Установка axios
+### Установка axios и saas
 Для отправки AJAX запросов между клиентом и сервером установим [axios](https://github.com/axios/axios)
 ```
 cd client
 npm install axios --save
 + axios@0.19.2
+npm install -D saas
++ saas@1.0.0
 ```
 ### Создание и подключение компонента Ping.vue
 В каталоге components создаем компонент Ping.vue
