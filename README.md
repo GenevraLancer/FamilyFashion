@@ -17,9 +17,8 @@ npm -v
 
 Пробуем новый установщик [Vite](https://www.npmjs.com/package/vite)
 ```
-mkdir client
-cd client
 npx create-vite-app client
+cd client
 npm i
 ```
 Для запуска клиента
