@@ -132,3 +132,26 @@ export default {
 };
 </script>
 ```
+
+### Изменяем App.vue
+Подключаем в App.vue новый компонент Ping.vue аналогично подключнному компоненту HelloWorld.vue
+```
+<template>
+  <Ping/>
+  <p/>
+  <HelloWorld msg="1"/>
+</template>
+
+<script>
+import Ping from './components/Ping.vue'
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Ping,
+    HelloWorld
+  }
+}
+</script>
+```
