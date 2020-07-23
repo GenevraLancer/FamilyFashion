@@ -109,10 +109,9 @@ npm install axios --save
 + axios@0.19.2
 ```
 ### Создание и подключение компонента Ping.vue
-Создаем папку components и в ней компонент Ping.vue
+В каталоге components создаем компонент Ping.vue
 ```
-cd client
-mkdir components
+cd client/src/components
 ```
 Заполняем компонент Ping.vue
 ```
