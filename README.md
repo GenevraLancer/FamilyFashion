@@ -183,4 +183,7 @@ export default {
 
 ### Настраиваем vue-router
 Создаем каталог ```client/src/router```
+Создаем файл index.js
+
+
 
