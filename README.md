@@ -13,19 +13,6 @@ npm -v
 6.14.5
 ```
 
-### Создание клиента из тестового проекта Vue-3 и настройка клиентского фрейморка Vue.js
-
-Пробуем новый установщик [Vite](https://www.npmjs.com/package/vite)
-```
-npx create-vite-app client
-cd client
-npm i
-```
-Для запуска клиента
-```
-npm run dev
-```
-
 ### Установка vue-devtools
 Для браузера chrome установлена [бета-версия 6.0.0 beta 1](https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg) которая работает с Vue-3
 
@@ -43,7 +30,7 @@ virtualenv --version
 virtualenv 20.0.27
 ```
 
-### Настройка проекта FamilyFashion
+### Настройка сервера
 1. Создание и активация виртуальной среды проекта virtual env
 > [WARNING](https://docs.brew.sh/Homebrew-and-Python): When you brew install formulae that provide Python bindings, you should not be in an active virtual environment.
 > Activate the virtualenv after you’ve brewed, or brew in a fresh terminal window. Homebrew will still install Python modules into Homebrew’s site-packages and not into the virtual environment’s site-package.
@@ -98,6 +85,21 @@ def ping_pong():
 if __name__ == '__main__':
     app.run()
 ```
+### Создание клиента и настройка клиентского фрейморка Vue.js
+
+Пробуем новый установщик [Vite](https://www.npmjs.com/package/vite)
+```
+npx create-vite-app client
+cd client
+npm i
+```
+Для запуска клиента
+```
+npm run dev
+```
+Смотрим, что отображается страница
+> Local:    http://localhost:3000/
+Выключаем CTRL+C
 
 ### Установка axios
 Для отправки AJAX запросов между клиентом и сервером установим [axios](https://github.com/axios/axios)
