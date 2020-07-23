@@ -17,11 +17,10 @@ npm -v
 
 Пробуем новый установщик [Vite](https://www.npmjs.com/package/vite)
 ```
-npm init vite-app hello-vue3
-cd hello-vue3
-npm install
-npm install vue-router
-+ vue-router@3.3.4
+mkdir client
+cd client
+npx create-vite-app client
+npm i
 ```
 Для запуска клиента
 ```
