@@ -21,6 +21,7 @@ npm init vite-app hello-vue3
 cd hello-vue3
 npm install
 npm install vue-router
++ vue-router@3.3.4
 ```
 Для запуска клиента
 ```
@@ -98,4 +99,11 @@ def ping_pong():
 
 if __name__ == '__main__':
     app.run()
+```
+
+### Установка axios
+```
+cd webapp-client
+npm install axios --save
++ axios@0.19.2
 ```
