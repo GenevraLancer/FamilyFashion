@@ -183,7 +183,56 @@ export default {
 
 ### Настраиваем vue-router
 Создаем каталог ```client/src/router```
-Создаем файл index.js
+Создаем файл index.js и вставляем код
+```
+import { createRouter, createWebHistory} from 'vue-router'
+import Home from '../views/Home.vue'
+import Contact from '../views/Contact.vue'
 
+const routerHistory = createWebHistory()
 
+const router = createRouter({
+    history: routerHistory,
+    routes : [
+    {
+        path:'/',
+        component: Home
+    },
+    {
+        path:'/contact',
+        component: Contact
+    }
+    ]
+})
 
+export default router
+```
+
+Вносим изменения в main.js
+```
+import { createApp } from 'vue'
+import App from './App.vue'
+import './index.css'
+import router from './router'
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
+```
+
+Создаем каталог ```client/src/views``` и в нем два файла Home.vue и Contact.vue
+saas еще криво работает, поэтому не используем теги стиля
+```
+<template>
+    <h3>DFGGGG</h3>
+</template>
+
+<script />
+```
+
+Вносим изменения в App.vue
+```
+<router-link to="/">Home</router-link>
+  <router-link to="/contact">Contact</router-link>
+  <router-view/>
+```
