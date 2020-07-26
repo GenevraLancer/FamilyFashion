@@ -179,7 +179,13 @@ export default {
 </script>
 ```
 
-### ! SAAS под вопросо работает странно
+### Установка saas для работы с css
+Устанавливаем загрузчик и saas
+```
+npm install -D sass-loader sass
++ sass-loader@9.0.2
++ sass@1.26.10
+```
 
 ### Настраиваем vue-router
 Создаем каталог ```client/src/router```
