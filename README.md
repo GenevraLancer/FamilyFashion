@@ -244,7 +244,7 @@ npm uninstall saas-loader
 Как [подсказка](https://medium.com/@serg.gavel/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-sass-scss-%D0%B2-%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B5-vue-js-10542b3a1b09) по работе с css 
 Ресурсы спиннера из мануала: https://loading.io/css
 
-Решение первой проблемы - выровнять спиннер по центру экрана. Пример кода
+Решение первой проблемы - выровнять спиннер по центру экрана, не внося изменения в код самого спиннера. Пример кода:
 ```
 <template>
     <div class="canvas-outer">
