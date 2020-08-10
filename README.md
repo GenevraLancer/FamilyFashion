@@ -308,9 +308,10 @@ export default {
 ```
 
 ### Еще больше красоты с бутстрап
+bootstrap@4.5.2 еще не адаптирован для работы с фронтендом vue3, пробуем с vue-material@1.0.0-beta-14
 ```
-npm install bootstrap --save 
-+ bootstrap@4.5.2
+npm install vue-material --save 
++ vue-material@1.0.0-beta-14
 ```
 
 
