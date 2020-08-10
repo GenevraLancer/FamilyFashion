@@ -273,3 +273,36 @@ npm uninstall saas-loader
 }
 .lds-hourglass {...}
 ```
+### Взаимодействие фронтенда vue и бэкенда flask 
+В компоненте Ping.vue изенить раздел script
+
+```
+<script>
+import axios from 'axios';
+
+export default {
+  name: 'Ping',
+  data() {
+    return {
+      msg: '',
+    };
+  },
+  methods: {
+    getMessage() {
+      const path = 'http://localhost:5000/ping';
+      axios.get(path)
+        .then((res) => {
+          this.msg = res.data;
+        })
+        .catch((error) => {
+          // eslint-выключение следующей строки
+          console.error(error);
+        });
+    },
+  },
+  created() {
+    this.getMessage();
+  },
+};
+</script>
+```
