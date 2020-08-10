@@ -306,3 +306,11 @@ export default {
 };
 </script>
 ```
+
+### Еще больше красоты с бутстрап
+```
+npm install bootstrap --save 
++ bootstrap@4.5.2
+```
+
+
